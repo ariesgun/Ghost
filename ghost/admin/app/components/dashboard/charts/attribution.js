@@ -8,7 +8,7 @@ const CHART_COLORS = [
     '#CA3FED',
     '#E993CC',
     '#EE9696',
-    '#FEC7C0',
+    '#E6E9EB',
     '#E6E9EB'
 ];
 export default class Recents extends Component {
@@ -83,6 +83,7 @@ export default class Recents extends Component {
     }
 
     get chartOptions() {
+    let that = this;
     return {
         cutoutPercentage: 70,
         borderColor: '#fff',
